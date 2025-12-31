@@ -24,31 +24,16 @@ Restart Sublime Text, then type `pyhelp` + Tab in any Python file to see all sni
 
 ## Python Snippets (24 total)
 
-**Core:** `main`, `cls`, `def`
-**Error Handling:** `try`, `tryf`
-**API/Data:** `req`, `env`, `withopen`
-**Testing:** `test`, `fixture`
-**Logging:** `log`, `logi`
-**Algorithms:** `chunk`, `flatten`, `counter`, `groupby`
-**Boilerplates:** `boiler`, `cliboiler`, `initpy`
-**Advanced:** `context`, `decorator`, `dectimer`
-**Debug:** `pdb`
-**Help:** `pyhelp`
-
-## Structure
-
-```
-sublime-text-configurations/
-├── .sublime-config              # Local config (git-ignored)
-├── .sublime-config.example      # Config template
-├── snippets/python/             # Python snippets (24 files)
-├── scripts/
-│   ├── setup-config.sh          # Configure paths
-│   └── install-python-snippets.sh
-└── docs/
-    ├── SUBLIME_TEXT_CONFIG_GUIDE.md
-    └── REPOSITORY_STRATEGY.md
-```
+- **Core:** `main`, `cls`, `def`
+- **Error Handling:** `try`, `tryf`
+- **API/Data:** `req`, `env`, `withopen`
+- **Testing:** `test`, `fixture`
+- **Logging:** `log`, `logi`
+- **Algorithms:** `chunk`, `flatten`, `counter`, `groupby`
+- **Boilerplates:** `boiler`, `cliboiler`, `initpy`
+- **Advanced:** `context`, `decorator`, `dectimer`
+- **Debug:** `pdb`
+- **Help:** `pyhelp`
 
 ## Scripts
 
@@ -81,8 +66,3 @@ git pull
 1. Create `.sublime-snippet` file in `snippets/python/`
 2. Add to `py-help.sublime-snippet` reference
 3. Run `./scripts/install-python-snippets.sh`
-
-## Documentation
-
-- [SUBLIME_TEXT_CONFIG_GUIDE.md](SUBLIME_TEXT_CONFIG_GUIDE.md) - Complete config reference
-- [REPOSITORY_STRATEGY.md](REPOSITORY_STRATEGY.md) - Organization strategy
