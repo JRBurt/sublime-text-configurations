@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+def ${1:function_name}(${2:arg}: ${3:str}) -> ${4:None}:
+	"""${5:Brief one-line summary}.
+
+	${6:More detailed description (optional).}
+
+	Args:
+		${2:arg}: ${7:Description of arg}
+
+	Returns:
+		${8:Description of return value}
+
+	${9:Raises:
+		${10:ExceptionType}: ${11:When this exception is raised}}
+	"""
+	${0:pass}
+]]></content>
+	<tabTrigger>def</tabTrigger>
+	<scope>source.python</scope>
+	<description>Function with PEP 257 docstring</description>
+</snippet>

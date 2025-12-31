@@ -1,0 +1,56 @@
+<snippet>
+	<content><![CDATA[
+"""
+PYTHON SNIPPETS QUICK REFERENCE
+================================
+
+CORE DEVELOPMENT
+  main       - if __name__ == "__main__"
+  cls        - Class with __init__ and __repr__
+  def        - Function with type hints + docstring
+
+ERROR HANDLING
+  try        - try/except with logging
+  tryf       - try/except/finally
+
+API & DATA
+  req        - requests with error handling
+  env        - os.getenv with default
+  withopen   - file context manager
+
+TESTING
+  test       - pytest test (AAA pattern)
+  fixture    - pytest fixture
+
+LOGGING
+  log        - logger setup
+  logi       - logger statement
+
+ALGORITHMS
+  chunk      - split list into chunks
+  flatten    - flatten nested list
+  counter    - Counter from collections
+  groupby    - groupby from itertools
+
+BOILERPLATES (greenfield projects)
+  boiler     - basic script structure
+  cliboiler  - CLI tool with argparse
+  initpy     - package __init__.py
+
+ADVANCED
+  context    - context manager class
+  decorator  - function decorator template
+  dectimer   - timing decorator
+
+DEBUG
+  pdb        - breakpoint for debugging
+
+Type trigger + Tab to insert snippet
+Tab through ${1:placeholders} to fill in
+"""
+${0}
+]]></content>
+	<tabTrigger>pyhelp</tabTrigger>
+	<scope>source.python</scope>
+	<description>Python snippets reference</description>
+</snippet>

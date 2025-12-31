@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+import os
+${1:var_name} = os.getenv("${2:ENV_VAR}", "${3:default_value}")
+]]></content>
+	<tabTrigger>env</tabTrigger>
+	<scope>source.python</scope>
+	<description>os.getenv with default</description>
+</snippet>

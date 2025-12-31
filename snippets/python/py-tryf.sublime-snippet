@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+try:
+	${1:pass}
+except ${2:Exception} as e:
+	logger.error(f"${3:Operation failed}: {e}")
+	${4:raise}
+finally:
+	${5:pass}
+]]></content>
+	<tabTrigger>tryf</tabTrigger>
+	<scope>source.python</scope>
+	<description>try/except/finally</description>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+from itertools import groupby
+grouped = {k: list(v) for k, v in groupby(sorted(${1:items}, key=${2:lambda x: x}), key=$2)}
+]]></content>
+	<tabTrigger>groupby</tabTrigger>
+	<scope>source.python</scope>
+	<description>groupby from itertools</description>
+</snippet>

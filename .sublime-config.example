@@ -1,0 +1,13 @@
+# Sublime Text Configuration
+# Copy this file to .sublime-config and customize for your system
+#
+# This file should NOT be committed to version control (it's in .gitignore)
+# Each user should create their own .sublime-config file
+
+# Path to Sublime Text User directory
+# Examples:
+#   macOS:   /Users/username/Library/Application Support/Sublime Text/Packages/User
+#   Linux:   /home/username/.config/sublime-text-3/Packages/User
+#   Windows: C:/Users/username/AppData/Roaming/Sublime Text/Packages/User
+
+SUBLIME_USER_DIR="$HOME/Library/Application Support/Sublime Text/Packages/User"

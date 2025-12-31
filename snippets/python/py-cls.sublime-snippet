@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+class ${1:ClassName}:
+	"""${2:Brief description}."""
+
+	def __init__(self, ${3:args}):
+		${4:pass}
+
+	def __repr__(self):
+		return f"${1:ClassName}(${5})"
+]]></content>
+	<tabTrigger>cls</tabTrigger>
+	<scope>source.python</scope>
+	<description>Class with __init__ and __repr__</description>
+</snippet>

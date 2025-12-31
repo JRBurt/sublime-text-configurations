@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+from collections import Counter
+counts = Counter(${1:items})
+]]></content>
+	<tabTrigger>counter</tabTrigger>
+	<scope>source.python</scope>
+	<description>Counter from collections</description>
+</snippet>

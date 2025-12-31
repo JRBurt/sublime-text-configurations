@@ -1,0 +1,52 @@
+<snippet>
+	<content><![CDATA[
+# ═══════════════════════════════════════════════════════════════════════════════
+# DEBUG SECTION - ${1:Description}
+# ═══════════════════════════════════════════════════════════════════════════════
+from pprint import pprint as pp
+import sys
+import inspect
+
+# Context Information
+_frame = inspect.currentframe()
+_info = inspect.getframeinfo(_frame)
+_stack = inspect.stack()
+
+print("\n" + "═" * 80)
+print("DEBUG CONTEXT".center(80))
+print("═" * 80)
+
+# Current Location
+print(f"\n📍 CURRENT LOCATION")
+print(f"  File......: {_info.filename}")
+print(f"  Function..: {_info.function}()")
+print(f"  Line......: {_info.lineno}")
+
+# Call Stack (last 3 calls)
+print(f"\n📞 CALL STACK (recent)")
+for i, frame_info in enumerate(_stack[1:4], 1):
+	_caller_func = frame_info.function
+	_caller_file = frame_info.filename.split('/')[-1]
+	_caller_line = frame_info.lineno
+	print(f"  {i}. {_caller_func}() @ {_caller_file}:{_caller_line}")
+
+# Variable Dump
+print(f"\n📦 VARIABLES ({len([k for k in locals() if not k.startswith('_')])} total)")
+_locals = {k: v for k, v in locals().items() if not k.startswith('_')}
+for _var_name, _var_value in sorted(_locals.items()):
+	_type = type(_var_value).__name__
+	_repr = repr(_var_value)[:45] + "..." if len(repr(_var_value)) > 45 else repr(_var_value)
+	print(f"  {_var_name:.<25} {_type:.<12} {_repr}")
+
+print("═" * 80 + "\n")
+
+${2:# Additional debug logic here}
+
+breakpoint()  # Debugger entry point
+# ═══════════════════════════════════════════════════════════════════════════════
+${0}
+]]></content>
+	<tabTrigger>pdb</tabTrigger>
+	<scope>source.python</scope>
+	<description>Full debugging block with context and variable dump</description>
+</snippet>

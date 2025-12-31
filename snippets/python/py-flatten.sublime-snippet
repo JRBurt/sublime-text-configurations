@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+flattened = [item for sublist in ${1:nested_list} for item in sublist]
+]]></content>
+	<tabTrigger>flatten</tabTrigger>
+	<scope>source.python</scope>
+	<description>flatten nested list</description>
+</snippet>

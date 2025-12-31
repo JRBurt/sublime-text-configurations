@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+chunks = [${1:items}[i:i+${2:chunk_size}] for i in range(0, len($1), $2)]
+]]></content>
+	<tabTrigger>chunk</tabTrigger>
+	<scope>source.python</scope>
+	<description>split list into chunks</description>
+</snippet>

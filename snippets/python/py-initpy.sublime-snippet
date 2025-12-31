@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+"""${1:Package description}."""
+
+__version__ = "${2:0.1.0}"
+__all__ = [${3:"main"}]
+
+from .${4:module} import ${5:function}
+]]></content>
+	<tabTrigger>initpy</tabTrigger>
+	<scope>source.python</scope>
+	<description>package __init__.py</description>
+</snippet>

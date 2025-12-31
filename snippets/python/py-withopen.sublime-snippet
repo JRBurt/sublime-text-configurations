@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+with open("${1:filename}", "${2:r}") as ${3:f}:
+	${4:content = $3.read()}
+]]></content>
+	<tabTrigger>withopen</tabTrigger>
+	<scope>source.python</scope>
+	<description>file context manager</description>
+</snippet>

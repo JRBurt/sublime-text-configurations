@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+def test_${1:function_name}():
+	"""${2:Test description}."""
+	# Arrange
+	${3:pass}
+
+	# Act
+	result = ${4:function_call()}
+
+	# Assert
+	assert ${5:result == expected}
+]]></content>
+	<tabTrigger>test</tabTrigger>
+	<scope>source.python</scope>
+	<description>pytest test (AAA pattern)</description>
+</snippet>

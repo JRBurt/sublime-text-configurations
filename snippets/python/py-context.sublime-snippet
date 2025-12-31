@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+class ${1:ContextManager}:
+	"""${2:Description}."""
+
+	def __enter__(self):
+		${3:# Setup}
+		return ${4:self}
+
+	def __exit__(self, exc_type, exc_val, exc_tb):
+		${5:# Cleanup}
+		return False  # Propagate exceptions
+]]></content>
+	<tabTrigger>context</tabTrigger>
+	<scope>source.python</scope>
+	<description>context manager class</description>
+</snippet>

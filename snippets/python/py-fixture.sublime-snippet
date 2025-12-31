@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+import pytest
+
+@pytest.fixture
+def ${1:fixture_name}():
+	"""${2:Fixture description}."""
+	${3:# Setup
+	value = None}
+	yield ${4:value}
+	${5:# Teardown (optional)}
+]]></content>
+	<tabTrigger>fixture</tabTrigger>
+	<scope>source.python</scope>
+	<description>pytest fixture</description>
+</snippet>

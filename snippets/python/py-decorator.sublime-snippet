@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+from functools import wraps
+
+def ${1:decorator_name}(${2:func}):
+	"""${3:Decorator description}."""
+	@wraps($2)
+	def wrapper(*args, **kwargs):
+		${4:# Pre-processing}
+		result = $2(*args, **kwargs)
+		${5:# Post-processing}
+		return result
+	return wrapper
+]]></content>
+	<tabTrigger>decorator</tabTrigger>
+	<scope>source.python</scope>
+	<description>function decorator template</description>
+</snippet>

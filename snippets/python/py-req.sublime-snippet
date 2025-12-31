@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+import requests
+
+try:
+	response = requests.${1:get}("${2:url}")
+	response.raise_for_status()
+	${3:data = response.json()}
+except requests.exceptions.RequestException as e:
+	logger.error(f"Request failed: {e}")
+	raise
+]]></content>
+	<tabTrigger>req</tabTrigger>
+	<scope>source.python</scope>
+	<description>requests with error handling</description>
+</snippet>
