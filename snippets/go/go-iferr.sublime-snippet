@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+if err != nil {
+	log.${1:Fatal}f("${2:operation failed}: %v", err)
+	${3:return err}
+}
+]]></content>
+	<tabTrigger>iferr</tabTrigger>
+	<scope>source.go</scope>
+	<description>if err != nil with logging</description>
+</snippet>

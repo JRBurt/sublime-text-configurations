@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+resp, err := http.${1:Get}("${2:url}")
+if err != nil {
+	log.Fatalf("request failed: %v", err)
+}
+defer resp.Body.Close()
+
+if resp.StatusCode != http.StatusOK {
+	log.Fatalf("unexpected status: %s", resp.Status)
+}
+
+${3:body, err := io.ReadAll(resp.Body)
+if err != nil {
+	log.Fatalf("failed to read response: %v", err)
+\}}
+]]></content>
+	<tabTrigger>httpreq</tabTrigger>
+	<scope>source.go</scope>
+	<description>HTTP request with error handling</description>
+</snippet>

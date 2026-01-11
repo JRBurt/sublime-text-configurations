@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+func main() {
+	${1:// TODO: implement}
+}
+]]></content>
+	<tabTrigger>main</tabTrigger>
+	<scope>source.go</scope>
+	<description>func main()</description>
+</snippet>

@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+package main
+
+import (
+	"log"
+	"os"
+)
+
+func main() {
+	log.SetFlags(log.Ldate | log.Ltime | log.Lshortfile)
+
+	if err := run(); err != nil {
+		log.Fatalf("error: %v", err)
+		os.Exit(1)
+	}
+}
+
+func run() error {
+	${1:// TODO: implement main logic}
+	return nil
+}
+]]></content>
+	<tabTrigger>boiler</tabTrigger>
+	<scope>source.go</scope>
+	<description>basic main.go structure</description>
+</snippet>

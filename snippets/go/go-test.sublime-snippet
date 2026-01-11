@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+func Test${1:FunctionName}(t *testing.T) {
+	// Arrange
+	${2:// setup test data}
+
+	// Act
+	result := ${3:functionCall()}
+
+	// Assert
+	if ${4:result != expected} {
+		t.Errorf("expected %v, got %v", ${5:expected}, ${6:result})
+	}
+}
+]]></content>
+	<tabTrigger>test</tabTrigger>
+	<scope>source.go</scope>
+	<description>Go test function (AAA pattern)</description>
+</snippet>
