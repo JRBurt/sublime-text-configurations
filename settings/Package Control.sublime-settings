@@ -1,0 +1,17 @@
+{
+    "bootstrapped": true,
+    "in_process_packages":
+    [
+    ],
+    "installed_packages":
+    [
+        "Dockerfile Syntax Highlighting",
+        "LSP",
+        "LSP-jdtls",
+        "Package Control",
+        "paredit",
+        "Pretty JSON",
+        "SublimeREPL",
+        "Terraform",
+    ],
+}

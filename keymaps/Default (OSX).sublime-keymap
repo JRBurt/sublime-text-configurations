@@ -1,0 +1,9 @@
+[
+    {
+    "keys": ["f6"],
+    "command": "permute_lines",
+    "args": {
+        "operation": "unique"
+    },
+},
+]
