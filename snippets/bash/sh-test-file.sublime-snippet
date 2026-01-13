@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+[ -f ${1:filepath} ] && echo "${2:exists}" || echo "${3:not found}"
+]]></content>
+	<tabTrigger>sh-test</tabTrigger>
+	<scope>source.shell</scope>
+	<description>Check file exists then act</description>
+</snippet>

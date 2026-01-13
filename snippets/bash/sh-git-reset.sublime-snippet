@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+git reset --soft HEAD~${1:1}
+]]></content>
+	<tabTrigger>sh-git-reset</tabTrigger>
+	<scope>source.shell</scope>
+	<description>Git reset soft</description>
+</snippet>

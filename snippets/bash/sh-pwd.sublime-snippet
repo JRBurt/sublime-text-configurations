@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$(pwd)/${1:}
+]]></content>
+	<tabTrigger>sh-pwd</tabTrigger>
+	<scope>source.shell</scope>
+	<description>Current directory variable</description>
+</snippet>

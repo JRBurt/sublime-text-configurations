@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+find ${1:.} -name "${2:*.js}" -type f
+]]></content>
+	<tabTrigger>sh-find</tabTrigger>
+	<scope>source.shell</scope>
+	<description>Find files by pattern</description>
+</snippet>

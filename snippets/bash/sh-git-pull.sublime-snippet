@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+git pull --rebase origin ${1:main}
+]]></content>
+	<tabTrigger>sh-git-pull</tabTrigger>
+	<scope>source.shell</scope>
+	<description>Git pull with rebase</description>
+</snippet>

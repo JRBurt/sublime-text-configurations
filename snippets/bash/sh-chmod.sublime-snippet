@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+chmod -R ${1:755} ${2:directory/}
+]]></content>
+	<tabTrigger>sh-chmod</tabTrigger>
+	<scope>source.shell</scope>
+	<description>Change permissions recursively</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+git stash save "${1:description}" && git stash list
+]]></content>
+	<tabTrigger>sh-git-stash</tabTrigger>
+	<scope>source.shell</scope>
+	<description>Git stash save & list</description>
+</snippet>

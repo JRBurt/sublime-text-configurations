@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+mkdir -p ${1:path/to/nested/dir}
+]]></content>
+	<tabTrigger>sh-mkdir</tabTrigger>
+	<scope>source.shell</scope>
+	<description>Make directory with parents</description>
+</snippet>

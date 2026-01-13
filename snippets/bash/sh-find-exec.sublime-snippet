@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+find ${1:.} -name "${2:pattern}" -type f -exec ${3:command} {} \;
+]]></content>
+	<tabTrigger>sh-find-exec</tabTrigger>
+	<scope>source.shell</scope>
+	<description>Find and execute command</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+git log --oneline --graph --all -n ${1:10}
+]]></content>
+	<tabTrigger>sh-git-log</tabTrigger>
+	<scope>source.shell</scope>
+	<description>Git log with format</description>
+</snippet>

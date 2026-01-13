@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+git branch -a | grep ${1:pattern}
+]]></content>
+	<tabTrigger>sh-git-branch-list</tabTrigger>
+	<scope>source.shell</scope>
+	<description>Git branch list & filter</description>
+</snippet>

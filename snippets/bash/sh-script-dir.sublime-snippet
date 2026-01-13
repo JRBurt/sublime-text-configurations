@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+SCRIPT_DIR="\$( cd "\$( dirname "\${BASH_SOURCE[0]}" )" && pwd )"
+]]></content>
+	<tabTrigger>sh-script-dir</tabTrigger>
+	<scope>source.shell</scope>
+	<description>Get script directory</description>
+</snippet>

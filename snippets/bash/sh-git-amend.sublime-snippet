@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+git commit --amend --no-edit
+]]></content>
+	<tabTrigger>sh-git-amend</tabTrigger>
+	<scope>source.shell</scope>
+	<description>Git amend commit</description>
+</snippet>

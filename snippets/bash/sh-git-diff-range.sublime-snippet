@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+git diff ${1:HEAD~1}..${2:HEAD}
+]]></content>
+	<tabTrigger>sh-git-diff</tabTrigger>
+	<scope>source.shell</scope>
+	<description>Git show changes between commits</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+find ${1:.} -type f | wc -l
+]]></content>
+	<tabTrigger>sh-count</tabTrigger>
+	<scope>source.shell</scope>
+	<description>Count files in directory</description>
+</snippet>

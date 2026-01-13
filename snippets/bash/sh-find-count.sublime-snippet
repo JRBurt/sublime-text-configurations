@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+find ${1:.} -name "${2:*.sublime-snippet}" | wc -l
+]]></content>
+	<tabTrigger>sh-find-count</tabTrigger>
+	<scope>source.shell</scope>
+	<description>Find and count matches</description>
+</snippet>

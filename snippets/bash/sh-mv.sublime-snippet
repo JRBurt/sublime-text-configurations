@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+mv -v ${1:source} ${2:destination}
+]]></content>
+	<tabTrigger>sh-mv</tabTrigger>
+	<scope>source.shell</scope>
+	<description>Move with verbose output</description>
+</snippet>

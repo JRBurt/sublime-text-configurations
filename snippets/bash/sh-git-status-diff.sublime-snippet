@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+git status && git diff
+]]></content>
+	<tabTrigger>sh-git-status</tabTrigger>
+	<scope>source.shell</scope>
+	<description>Git status & diff check</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+git add ${1:.} && git commit -m "${2:message}" && git push
+]]></content>
+	<tabTrigger>sh-git-acp</tabTrigger>
+	<scope>source.shell</scope>
+	<description>Git add, commit, push</description>
+</snippet>

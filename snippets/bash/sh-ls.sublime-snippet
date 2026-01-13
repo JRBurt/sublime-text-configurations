@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+ls -lah ${1:}
+]]></content>
+	<tabTrigger>sh-ls</tabTrigger>
+	<scope>source.shell</scope>
+	<description>List with details & hidden</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+mkdir -p ${1:new-dir} && cd ${1:new-dir}
+]]></content>
+	<tabTrigger>sh-mkdir-cd</tabTrigger>
+	<scope>source.shell</scope>
+	<description>Create and navigate</description>
+</snippet>

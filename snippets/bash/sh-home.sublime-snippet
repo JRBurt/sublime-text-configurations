@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$HOME/${1:path/to/file}
+]]></content>
+	<tabTrigger>sh-home</tabTrigger>
+	<scope>source.shell</scope>
+	<description>Home directory reference</description>
+</snippet>
